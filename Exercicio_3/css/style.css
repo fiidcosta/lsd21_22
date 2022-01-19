@@ -1,0 +1,48 @@
+body {
+
+}
+
+.cx-1 , .cx-2{
+    margin: 30px;
+}
+
+.cx-1{
+    width: calc(100% - 60px);
+    height: 100px;
+    background-color: green;
+}
+
+.cx-2{
+
+    /*margin: 0px;*/
+    width: calc(50% - 60px);
+    height: 100px;
+    background-color: orange;
+    float: left;
+}
+
+.cx-interior{
+    height: 60px;
+    background-color: yellow;
+    width: 100%;
+}
+
+.cx-interior1, .cx-interior2, .cx-interior3{
+    height: 60px;
+    width: calc(33.33% - 20px);
+    float: left;
+    padding: 10px;
+
+}
+
+.cx-interior1{
+    background-color: yellow;
+}
+
+.cx-interior2{
+    background-color: red;
+}
+
+.cx-interior3{
+    background-color: green;
+}
